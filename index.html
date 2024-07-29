@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <div id="quoteDisplay" class="quote-display"></div>
+        <textarea id="quoteInput" class="quote-input" placeholder="Start typing..." disabled></textarea>
+        <button id="startButton" class="start-button">Start</button>
+        <button id="restartButton" class="restart-button" style="display: none;">Restart</button>
+        <p id="timer" class="timer">Time: 60s</p>
+        <p id="result" class="result"></p>
+        <audio id="correctSound" src="correct.mp3" preload="auto"></audio> <!-- correct sound -->
+        <audio id="backgroundMusic" src="background_music.mp3" preload="auto" loop></audio> <!-- Background music -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
